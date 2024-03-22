@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+h1{
+    font-family:'HeaderFont', "Staatliches", sans-serif;
+font-size: 96px;
+-webkit-text-fill-color: #DCCE4B; 
+-webkit-text-stroke-width: 0.1px;
+-webkit-text-stroke-color: black;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+   nav#wrapperHeader div#header {
+    width:1857px;
+    height:100px;
+    background-color: rgb(245, 244, 242);
+
+   }
+   .logo {
+    margin-left: 3%;
+    width:413px; 
+    height:100px; 
+   }
+
+body{
+    background: rgb(185, 193, 198);
+    background: linear-gradient(0deg, rgba(185, 193, 198, 1) 0%, rgba(124, 130, 139, 1) 85%, #7C828B 15%);
+}
+
+
+
+
+
+section{
+    position: relative;
+    min-height: 100vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+section:not(:first-of-type){
+    margin-top: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+/* .lrg-imgContainer {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.lrg-imgContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.title{
+    min-width: 100%;
+}
+
+.sectiontwo{
+    display:contents;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+    margin: 10rem auto 0 auto;
+}
+
+.sectiontwo img{
+    height:1050px;
+}
+
+.sectiontwo h2{
+    margin: 0;
+    color: rgb(245, 244, 242);
+}
+
+.sectiontwo p{
+    color: rgb(245, 244, 242);
+    margin-right: 15px
+}
+
+.one{
+    background-image:url(public/imgs/tove-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.two{
+    
+}
+
+.three{
+    /* background-image: url("/public/imgs/portraitbackground.jpg"); */
+    background-repeat: no-repeat;
+    /* background-size: 1621px 1130px; */
+    background-position: center;
+
+    
+}
+
+.four{
+    /* background-image: url("/public/imgs/mandmbackground.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+
+    
+}
+
+.five{
+    /* background-image: url("/public/imgs/mandmbackground.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+
+    
+}
+
+.six{
+    /* background-image: url("contactsbackground.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 1621px 1130px;
+    background-position: center;
+
+    
+}
